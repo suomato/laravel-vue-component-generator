@@ -1,0 +1,19 @@
+{
+  "name": "suomato/laravel-vue-component-generator",
+  "description": "Helper artisan commands for vue",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Toni Suomalainen",
+      "email": "toni.suomalainen@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Suomato\\VueComponentGenerator\\": "src/"
+    }
+  }
+}

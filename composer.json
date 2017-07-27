@@ -1,7 +1,8 @@
 {
   "name": "suomato/laravel-vue-component-generator",
-  "description": "Helper artisan commands for vue",
+  "description": "Generates a new Vue component with boilerplate",
   "license": "MIT",
+  "keywords": ["laravel", "vue-component", "generator"],
   "authors": [
     {
       "name": "Toni Suomalainen",
@@ -9,7 +10,11 @@
     }
   ],
   "require": {
-    "php": "^7.0"
+    "php": "^7.0",
+    "illuminate/support": "^5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
   },
   "autoload": {
     "psr-4": {

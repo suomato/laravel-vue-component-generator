@@ -1,6 +1,6 @@
 {
   "name": "suomato/laravel-vue-component-generator",
-  "description": "Generates a new Vue component with boilerplate",
+  "description": "Generates a new Vue component with boilerplate in Laravel project",
   "license": "MIT",
   "keywords": ["laravel", "vue-component", "generator"],
   "authors": [
@@ -20,5 +20,6 @@
     "psr-4": {
       "Suomato\\VueComponentGenerator\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }

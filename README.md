@@ -27,5 +27,23 @@ php aritsan make:vue-component {name}
 
 ## Installation
 
-> `laravel-vue-component-generator` package hasn't been released yet - stay tuned!
+```
+composer require suomato/laravel-vue-component-generator
+```
+> After that, add the ServiceProvider to the providers array in `config/app.php`
 
+```
+Suomato\VueComponentGenerator\VueComponentGeneratorServiceProvider::class,
+```
+
+> Enjoy using the new Artisan command. 
+
+## Config
+
+> If you don't want to choose the same template engine and CSS Pre-processor over and over again or if you're not happy with the default boilerplate, feel free to edit config or views. To publish the config and views use:
+```
+php artisan vendor:publish --provider="Suomato\VueComponentGenerator\VueComponentGeneratorServiceProvider"
+```
+
+- Config is located `/config/vue-component-generator.php`   
+- Views is located `/resources/views/vendor/laravel-vue-component-generator`
